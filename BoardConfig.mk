@@ -66,10 +66,6 @@ BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := ext4
 
-# Workaround for error copying vendor files to recovery ramdisk
-BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
-TARGET_COPY_OUT_VENDOR := vendor
-
 # TWRP Configuration
 TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := true
